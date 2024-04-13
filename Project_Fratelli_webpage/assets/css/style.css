@@ -1,0 +1,239 @@
+body{
+	background-color: #fff1cc;
+	margin: 0;
+	height: 2000px;
+}
+
+header{
+	background-color: #fff;
+}
+
+.container{
+	width: 70%;
+	margin: auto;
+}
+
+.logo{
+	display: inline-block;
+	width: 25%;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.logo img{
+	width: 70%;
+}
+
+.nav{
+	display: inline-block;
+	width: 70%;
+	vertical-align: middle;
+	margin-left: 4%;
+}
+
+.nav li{
+	display: inline-block;
+	width: 24%;
+}
+
+.nav a{
+	color: red;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	transition: 0.2s;
+}
+
+.nav a:hover{
+	color: #fc6a53;
+	text-decoration: underline;
+}
+
+#parallax{
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.5),
+		rgba(0, 0, 0, 0.5)
+	), url('../images/pasta-dish.jpeg');
+	height: 600px;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.red-line{
+	width: 70%;
+	border-color: red;
+}
+
+#about,#description{
+	margin: 30px 0px;
+}
+
+.img,.info{
+	width: 47%;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 10px;
+	margin: 10px 0px;
+}
+
+.img img{
+	width: 100%;
+	border: 2px solid red;
+}
+
+h2{
+	text-align: center;
+	text-transform: uppercase;
+	color: #303030;
+}
+
+p{
+	text-align: justify;
+	color: #303030;
+}
+
+#menu{
+	margin: 30px 0px;
+}
+
+.box{
+	text-align: center;
+	background-color: #fff;
+	border: 1px solid gray;
+	border-radius: 5px;
+	width: 21%;
+	display: inline-block;
+	margin: 0px 12px;
+}
+
+.box img{
+	width: 70%;
+}
+
+.box a{
+	background-color: red;
+	color: white;
+	padding: 7px 18px;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+	margin: 30px 0px;
+	transition: 0.2s;
+}
+
+.box a:hover{
+	background-color: #fc6a53;
+}
+
+h3{
+	font-size: 18px;
+	color: #303030;
+}
+
+.items{
+	margin: 40px 0px;
+}
+
+.del-box img{
+	width: 25px;
+	float: left;
+	padding-right: 5px;
+}
+
+.del-box{
+	font-size: 20px;
+	display: inline-block;
+	width: 27%;
+	padding-left: 5%;
+}
+
+.del-box h3{
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	color: #303030;
+}
+
+.del-box p{
+	font-size: 16px;
+	font-style: oblique;
+	color: #303030;
+}
+
+.del-row{
+	margin: 30px 0px;
+}
+
+.tiny-container{
+	width: 50%;
+	margin: auto;
+}
+#contact{
+	padding: 20px opx;
+	text-align: center;
+}
+
+#contact h2{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 24px;
+	margin: 20px 0px;
+	color: #303030;
+}
+
+#contact input,#contact textarea{
+	width: 95%;
+	display: block;
+	padding: 8px 15px;
+	margin: 10px 0px;
+	border-radius: 5px;
+	border: 0;
+	outline: 2px solid #ccc;
+	transition: 0.2s;
+	box-shadow: 5px 3px 5px 0px rgba(0,0,0,0.75);;
+}
+
+#contact textarea{
+	padding-bottom: 50px;
+}
+
+#contact input:focus, #contact textarea:focus{
+	box-shadow: 5px 3px 5px 0px red;
+	outline: 2px solid red;
+}
+
+#contact button{
+	color: white;
+	background-color: red;
+	padding: 10px;
+	padding: 7px 18px;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+	margin: 30px 0px;
+	transition: 0.2s;
+	border: 0;
+}
+
+#contact button:hover{
+	background-color: #fc6a53;
+}
+
+footer{
+	background-color: gray;
+	padding: 10px;
+}
+
+footer p{
+	margin: 0;
+	text-align: center;
+	color: #303030;
+
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
